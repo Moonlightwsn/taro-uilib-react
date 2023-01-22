@@ -1,3 +1,3 @@
-import Timer from './components/timer/timer'
+import Timer from "./components/Timer/Timer";
 
-export default Timer
+export default Timer;

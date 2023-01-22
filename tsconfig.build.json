@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "jsx": "react",
@@ -18,11 +20,6 @@
     "outDir": "./lib"
   },
   "compileOnSave": false,
-  "exclude": [
-    "node_modules/*",
-    "dist/*"
-  ],
-  "include": [
-    "src/**/*"
-  ]
+  "exclude": ["node_modules/*", "dist/*"],
+  "include": ["src/**/*"]
 }
